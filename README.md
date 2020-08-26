@@ -26,7 +26,7 @@ Figure out what you need to change to give Javascript access to the `h1#header` 
 
 **YOUR NOTES**
 ```
-
+  Move the index.js file to the bottom of the html body
 ```
 
 ## Deliverable 2
@@ -35,7 +35,7 @@ Now that you have access to the `h1#header` element, use Javascript to change th
 
 **YOUR NOTES**
 ```
-
+ use the header variable and chain methods, style and color. Set color to 'red'
 ```
 
 ## Deliverable 3
@@ -57,7 +57,9 @@ Create a DOM element that looks like this for each player and append it to the `
 
 **YOUR NOTES**
 ```
-
+  Grab the `.player-container` id
+  create a new div for each player using doc.createEl('div')
+  set Attributes for data-number and the innerHTML all within a forEach statement that will iterate through all the players in the array. Append each player to the `.player-container` id.
 ```
 
 ## Deliverable 4
